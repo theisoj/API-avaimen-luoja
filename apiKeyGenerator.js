@@ -5,4 +5,4 @@ const generateApiKey = () => {
     const apiKey = crypto.randomUUID()
     console.log(`Tässä on API-avain:\n${apiKey}\n`)
 }
-generateApiKey()
+export default generateApiKey

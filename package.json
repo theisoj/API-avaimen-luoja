@@ -1,11 +1,11 @@
 {
-  "name": "codespaces-blank",
-  "version": "1.0.0",
-  "description": "",
+  "name": "api-avaimen-luoja",
+  "version": "1.0.2",
+  "description": "Tämä luo satunnaisen API-avaimen jokaista Jesun Maailman palvelua varten.",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon apiKeyGenerator.js"
+    "dev": "node apiKeyGenerator.js"
   },
   "keywords": [],
   "author": "",
